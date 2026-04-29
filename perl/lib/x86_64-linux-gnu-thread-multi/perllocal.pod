@@ -1,0 +1,88 @@
+=head2 Wed Apr 29 12:09:37 2026: C<Module> L<Proc::Simple|Proc::Simple>
+
+=over 4
+
+=item *
+
+C<installed into: /home/nils/pwnhunter/attack-artifacts/20260426T125742Z/dm-vdo__common/risks/risk-001-pwnrequestresult/workspace/perl/third/../lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.32>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Apr 29 12:09:38 2026: C<Module> L<Test::Unit|Test::Unit>
+
+=over 4
+
+=item *
+
+C<installed into: /home/nils/pwnhunter/attack-artifacts/20260426T125742Z/dm-vdo__common/risks/risk-001-pwnrequestresult/workspace/perl/third/../lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.25>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Apr 29 12:09:56 2026: C<Module> L<Proc::Simple|Proc::Simple>
+
+=over 4
+
+=item *
+
+C<installed into: /home/nils/pwnhunter/attack-artifacts/20260426T125742Z/dm-vdo__common/risks/risk-001-pwnrequestresult/workspace/perl/third/../lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.32>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Apr 29 12:09:57 2026: C<Module> L<Test::Unit|Test::Unit>
+
+=over 4
+
+=item *
+
+C<installed into: /home/nils/pwnhunter/attack-artifacts/20260426T125742Z/dm-vdo__common/risks/risk-001-pwnrequestresult/workspace/perl/third/../lib>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.25>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

